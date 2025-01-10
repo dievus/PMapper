@@ -38,7 +38,9 @@ Then install with Pip:
 
 ~~~bash
 cd PMapper
-pip install .
+virtualenv venv
+source /venv/bin/activate
+pip3 install .
 ~~~
 
 ## Using Docker
